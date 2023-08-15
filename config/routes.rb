@@ -3,6 +3,6 @@ Blorgh::Engine.routes.draw do
     resources :comments
   end 
 
-  root to: "articles#index"
+  root to: "blorgh/articles#index"
 
 end
